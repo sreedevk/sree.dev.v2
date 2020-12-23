@@ -5,8 +5,8 @@ import BlogSummary from './blog-summary.js'
 const RecentPosts = () => (
   <StaticQuery query={
     graphql`
-      query Recentposts {
-        allRecentpostsJson {
+      query RecentPosts {
+        allRecentPostsJson {
           edges {
             node {
               id
@@ -39,7 +39,7 @@ const RecentPosts = () => (
 
 function getAllRecentPosts(data) {
   const recent_posts = []
-  data.allRecentpostsJson.edges.forEach((blog_post) => {
+  data.allRecentPostsJson.edges.forEach((blog_post) => {
     recent_posts.push(<BlogSummary key={blog_post.node.id} postTitle={blog_post.node.title} postShortDescription={blog_post.node.metaDescription} postImage={blog_post.node.image} postUrl={blog_post.node.url} postCreatedAt={blog_post.node.createdAt} bannerSize={blog_post.node.bannerSize} />)
       });
   return recent_posts;
