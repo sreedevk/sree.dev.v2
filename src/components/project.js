@@ -4,14 +4,15 @@ import React from "react"
 
 const Project = ({ projectId, projectName, projectDescription, projectUrl, projectImage }) => {
   return(
-    <div className="card">
-      <img src={ `/images/projects/${projectImage}` } alt={projectName} />
-      <div className="card-body">
-        <h5 className="card-title">{ projectName }</h5>
-        <p className="card-text">{ projectDescription } </p>
-        <a href={ projectUrl } className="">view</a>
+    <a href={ projectUrl }>
+      <div className="card project-info-card">
+        <img src={ `/images/projects/${projectImage}` } alt={projectName} />
+        <div className="card-img-overlay text-white">
+          <h3 className="card-title">{ projectName }</h3>
+          <p className="card-text">{ projectDescription } </p>
+        </div>
       </div>
-    </div>
+    </a>
   );
 }
 

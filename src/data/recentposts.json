@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Real World Uses of Bitwise Operators",
+    "metaDescription": "As a developer, you definitely would’ve learned about bitwise operators at some point and would’ve thought to yourself. “huh, that’s neat. but where would I actually use it?”.",
+    "image": "blog1.png",
+    "url": "https://medium.com/tarkalabs/real-world-uses-of-bitwise-operators-c41429df507f",
+    "createdAt": "Sep 3, 2020",
+    "bannerSize": "6"
+  },
+  {
+    "id": 2,
+    "title": "All You Need To Know About Comments in Ruby",
+    "metaDescription": "It is well known that the ruby comments are used to leave notes or micro-docs within the code and is ignored by the Ruby Interpreter. But can we do other things with comments?",
+    "image": "blog2.png",
+    "url": "https://medium.com/tarkalabs/all-you-need-to-know-about-comments-in-ruby-97d991714cf3",
+    "createdAt": "Jul 10, 2020",
+    "bannerSize": "6"
+  },
+  {
+    "id": 3,
+    "title": "Introduction To RAM Disks in Linux",
+    "metaDescription": "Learn to create temporary high speed virtual disks out of your free RAM on most Linux Distros using the RAM disks feature.",
+    "image": "blog3.jpg",
+    "url": "https://devtechnica.com/linux/introduction-to-ram-disks-in-linux",
+    "createdAt": "Sep 4, 2019",
+    "bannerSize": "6"
+  },
+  {
+    "id": 4,
+    "title": "RISC V Instruction Set Architecture Explained",
+    "metaDescription": "RISC V ISA is rapidly gaining popularity in the computer engineering world. Learn about how it is going the be next big thing and why you should support it.",
+    "image": "blog5.jpg",
+    "url": "https://devtechnica.com/computer-engineering/risc-v-instruction-set-architecture-explained",
+    "createdAt": "Feb 10, 2019",
+    "bannerSize": "6"
+  }
+]

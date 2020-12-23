@@ -6,6 +6,7 @@ import Header from "./header"
 import Footer from "./footer"
 import "../assets/css/layout.css"
 import '../assets/css/app.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -19,7 +20,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-      <div className="container">
+      <div className="page">
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
         <main>{children}</main>
         <Footer /> 

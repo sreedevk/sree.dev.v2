@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Github",
+    "handle": "@sreedevk",
+    "url": "https://github.com/sreedevk",
+    "iconClass": "fas fa-code-branch",
+    "color": "#333"
+  },
+  {
+    "id": "2",
+    "name": "LinkedIn",
+    "handle": "@ksreedev",
+    "url": "https://www.linkedin.com/in/ksreedev/",
+    "iconClass": "fab fa-linkedin",
+    "color": "#0072b1"
+  },
+  {
+    "id": "3",
+    "name": "Reddit",
+    "handle": "@sdevk",
+    "url": "https://www.reddit.com/u/sdevk",
+    "iconClass": "fab fa-reddit",
+    "color": "#FF4500"
+  },
+  {
+    "id": "4",
+    "name": "Blog",
+    "handle": "www.devtechnica.com",
+    "url": "https://www.devtechnica.com",
+    "iconClass": "fas fa-globe-asia",
+    "color": "#1b4332"
+  },
+  {
+    "id": "5",
+    "name": "Twitter",
+    "handle": "@devtechnica",
+    "url": "https://twitter.com/devtechnica",
+    "iconClass": "fab fa-twitter",
+    "color": "#1DA1F2"
+  }
+]

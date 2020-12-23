@@ -12,13 +12,37 @@
     "name": "Chip8 Emulator",
     "description": "Chip8 Emulator Written From Scratch in C.",
     "url": "https://github.com/sreedevk/chip8",
-    "image": "game_of_life.gif"
+    "image": "chip_8.png"
   },
   {
     "id": 3,
     "name": "Binary Tree Struct",
     "description": "Binary Tree Data Structure Implementation in Ruby & C (Ruby FFI) & packaged as a Gem.",
-    "url": "https://github.com/sreedevk/chip8",
-    "image": "game_of_life.gif"
+    "url": "https://github.com/sreedevk/binary_tree_struct",
+    "image": "btreestruct.jpg"
+  },
+  {
+    "id": 4,
+    "name": "dotfiles",
+    "description": "My Configurations for zsh, liquidprompt, i3wm, bash & vim.",
+    "url": "https://github.com/sreedevk/dotfiles",
+    "image": "dotfiles.jpg"
+
+  },
+  {
+    "id": 5,
+    "name": "Pyramage",
+    "description": "Python Matplotlib Terrain Generator made using Perlin Noise Algorithm.",
+    "url": "https://github.com/sreedevk/pyramage",
+    "image": "pyramage.gif"
+
+  },
+  {
+    "id": 6,
+    "name": "Advent Of Code",
+    "description": "My Advent Of Code Solutions. (Competitive Programming)",
+    "url": "https://github.com/sreedevk/advent-of-code",
+    "image": "advent_of_code.gif"
+
   }
 ]

@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import Project from './project'
 
 const ProjectOverview = () => (
@@ -20,7 +19,16 @@ const ProjectOverview = () => (
       }
     `}
     render={ data => (
-      <div className="projects-overview-container row">{ getProjects(data) }</div>
+      <section className="projects-overview">
+        <div className="row">
+          <div className="col-lg-12 col-md-12 col-sm-12 section-title-container">
+            <h1 className="section-title">Projects</h1>
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <div className="projects-overview-container row">{ getProjects(data) }</div>
+          </div>
+        </div>
+      </section>
     )}
   />
 )

@@ -19,16 +19,21 @@
 }
 
 body {
-  background: #edf2f4;
+  background: #fff;
 }
 
 header {
   margin: 10px 0px;
+  padding: 0px 30px;
 }
 
 header h1 {
   font-family: jetbrains_mono_bold;
-  color: #2b2d42;
+  color: #1d3557;
+}
+
+header h1 .title-underscore {
+  color: #fca311;
 }
 
 header h4 {
@@ -43,6 +48,7 @@ header nav {
   margin: 25px 0px;
   font-family: jetbrains_mono_regular;
   font-weight: 800;
+  text-align: center;
 }
 
 header nav ul li {
@@ -60,7 +66,13 @@ header nav ul li a:hover {
 
 footer {
   font-family: jetbrains_mono_regular;
+  height: 50px;
   text-align: center;
+}
+
+footer .copyright-info {
+  color: #8d99ae;
+  padding: 10px 0px;
 }
 
 .ascii-image {
@@ -69,31 +81,86 @@ footer {
   overflow: hidden;
 }
 
+.asciipic-container {
+  text-align: right !important;
+}
+
 .index-row .intro-text {
-  padding-top: 100px;
   text-align: justify;
+  padding-top: 60px;
   font-family: jetbrains_mono_semilight_italic;
 }
 
-.copyright-info {
-  color: #8d99ae;
-}
-
-.projects-overview-container li {
-  display: inline-block; 
-}
-
 section {
-  height: 100vh;
+  height: 100%;
+}
+
+section.introduction-section {
+  padding: 0px 30px;
+}
+
+section.projects-overview, section.blog-summary-section {
+  padding: 30px;
+  height: 100%;
 }
 
 section .section-title {
-  display: inline-block;
+  display: block;
   font-family: jetbrains_mono_bold;
 }
 
-section .sectional-title-sideline {
-  display: inline-block;
-  height: 10px;
-  width: 100%;
+.project-info-card, .blog-summary-card {
+  margin: 10px 5px !important;
+  box-shadow: 1px 1px 1px 1px white;
+  padding-right: none;
+  border: none;
+  height: 260px;
+  overflow: hidden;
+}
+
+.project-info-card .card-title, .blog-summary-card .card-title {
+  font-family: jetbrains_mono_bold; 
+}
+
+.project-info-card img, .blog-summary-card img {
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.project-info-card .card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.blog-summary-card .card-img-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.project-info-card .card-text  {
+  font-family: opensans_regular;
+  font-size: 18px;
+}
+
+.blog-summary-card .card-text {
+  font-family: opensans_regular;
+  font-size: 14px;
+}
+
+a.read-more-link:link, a.read-more-link:visited {
+  color: white;
+  font-family: jetbrains_mono_bold;
+}
+
+.social-label {
+  font-weight: 900;
+  font-family: 'jetbrains_mono_bold';
+  padding: 10px;
+}
+
+.social-handle {
+  font-family: jetbrains_mono_semilight_italic;
+}
+
+.social-icon-container {
+  display: block;
+  margin: 15px 0px;
 }
