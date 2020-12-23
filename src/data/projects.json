@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "GameOfLife",
+    "description": "Conway's Game of Life Implemented in Ruby & SDL2. Packaged as an executable gem.",
+    "url": "https://github.com/sreedevk/game0flife",
+    "image": "game_of_life.gif"
+
+  },
+  {
+    "id": 2,
+    "name": "Chip8 Emulator",
+    "description": "Chip8 Emulator Written From Scratch in C.",
+    "url": "https://github.com/sreedevk/chip8",
+    "image": "game_of_life.gif"
+  },
+  {
+    "id": 3,
+    "name": "Binary Tree Struct",
+    "description": "Binary Tree Data Structure Implementation in Ruby & C (Ruby FFI) & packaged as a Gem.",
+    "url": "https://github.com/sreedevk/chip8",
+    "image": "game_of_life.gif"
+  }
+]

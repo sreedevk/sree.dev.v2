@@ -1,0 +1,99 @@
+@font-face {
+  font-family: jetbrains_mono_regular;
+  src: url('../fonts/JetBrainsMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: jetbrains_mono_bold;
+  src: url('../fonts/JetBrainsMono-Bold.ttf');
+}
+
+@font-face {
+  font-family: opensans_regular;
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face  {
+  font-family: jetbrains_mono_semilight_italic;
+  src: url(../fonts/JetBrainsMono-SemiLight-Italic.ttf);
+}
+
+body {
+  background: #edf2f4;
+}
+
+header {
+  margin: 10px 0px;
+}
+
+header h1 {
+  font-family: jetbrains_mono_bold;
+  color: #2b2d42;
+}
+
+header h4 {
+  margin: -20px 0px;
+  font-family: jetbrains_mono_regular;
+  font-weight: 100;
+  font-size: 16px;
+  color: #8d99ae;
+}
+
+header nav {
+  margin: 25px 0px;
+  font-family: jetbrains_mono_regular;
+  font-weight: 800;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+header nav ul li a:link, nav ul li a:visited {
+  color: #d90429;
+}
+
+header nav ul li a:hover {
+  color: #ef233c;
+}
+
+footer {
+  font-family: jetbrains_mono_regular;
+  text-align: center;
+}
+
+.ascii-image {
+  width: 450px;
+  height: 520px;
+  overflow: hidden;
+}
+
+.index-row .intro-text {
+  padding-top: 100px;
+  text-align: justify;
+  font-family: jetbrains_mono_semilight_italic;
+}
+
+.copyright-info {
+  color: #8d99ae;
+}
+
+.projects-overview-container li {
+  display: inline-block; 
+}
+
+section {
+  height: 100vh;
+}
+
+section .section-title {
+  display: inline-block;
+  font-family: jetbrains_mono_bold;
+}
+
+section .sectional-title-sideline {
+  display: inline-block;
+  height: 10px;
+  width: 100%;
+}
