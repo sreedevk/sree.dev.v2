@@ -2,5 +2,17 @@
   {
     "content-tag": "short-intro",
     "content": "A passionate Software Engineer, an eloquent orator & blogger with experience in multiple disciplines of software engineering including Web Application Development, Game Development and Systems Programming."
+  },
+  {
+    "content-tag": "phone-number",
+    "content": "+91-9600928275"
+  },
+  {
+    "content-tag": "email",
+    "content": "sreedevpadmakumar@gmail.com"
+  },
+  {
+    "content-tag": "location",
+    "content": "Bangalore, IN."
   }
 ]

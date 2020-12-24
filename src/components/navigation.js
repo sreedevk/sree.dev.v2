@@ -1,16 +1,34 @@
-import { Link } from "gatsby"
+import { Link, StaticQuery, graphql } from "gatsby"
 import React from "react"
 
 const Navigation = () => (
-  <nav>
-    <ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/blog">Blog</Link></li>
-      <li><Link to="/resume">Resume</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-    </ul>
-  </nav>
+  <StaticQuery query={
+    graphql`
+      query Menuitems {
+        allMenuitemsJson {
+          edges {
+            node {
+              text
+              url
+            }
+          }
+        }
+      }`
+    }
+    render={ data => (
+      <nav>
+        <ul>{getMenuItems(data)}</ul>
+      </nav>
+    )}
+  />
 )
+
+function getMenuItems(data){
+  const menuItems = [];
+  data.allMenuitemsJson.edges.forEach( menuitem => {
+    menuItems.push(<li key={menuitem.node.url}><Link to={menuitem.node.url}>{menuitem.node.text}</Link></li>); 
+  });
+  return menuItems;
+}
 
 export default Navigation;
