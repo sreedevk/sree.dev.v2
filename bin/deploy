@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+rsync -rv --progress "$(dirname $0)/../public/" root@sree.dev:/var/www/sree.dev/

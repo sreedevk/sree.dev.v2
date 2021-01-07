@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BlogSummary = ({ postTitle, postShortDescription, postImage, postUrl, postCreatedAt, bannerSize }) => (
+const RecentPost = ({ postTitle, postShortDescription, postImage, postUrl, postCreatedAt, bannerSize }) => (
   <div className={`col-lg-${bannerSize} col-md-6 col-sm-12`}>
     <div className="card blog-summary-card">
       <img src={ `/images/recent-posts/${postImage}` } alt={postTitle} />
@@ -13,4 +13,4 @@ const BlogSummary = ({ postTitle, postShortDescription, postImage, postUrl, post
   </div>
 )
 
-export default BlogSummary
+export default RecentPost

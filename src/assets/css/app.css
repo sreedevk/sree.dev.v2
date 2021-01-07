@@ -255,3 +255,72 @@ a.read-more-link:link, a.read-more-link:visited {
   display: block;
   margin: 15px 0px;
 }
+
+.about-text {
+  font-family: opensans_regular;
+}
+
+.resume-viewer {
+  width: 100%;
+  height: 1000px;
+}
+
+.about-text {
+  font-family: jetbrains_mono_regular;
+  text-align: justify;
+}
+
+.signature-name {
+  font-family: jetbrains_mono_semilight_italic;
+}
+
+.nav-cards {
+  margin: 15px 0px;
+}
+
+.nav-cards .card {
+  height: 200px;
+  overflow: hidden;
+}
+
+.nav-cards .card img {
+  height: 120%;
+}
+
+.nav-cards .card-img-overlay {
+  background: rgba(0,0,0,0.4);
+}
+
+.contact-form label, .contact-form .btn, .contact-form input, .contact-form textarea {
+  font-family: jetbrains_mono_bold;
+}
+
+.contact-form input, .contact-form textarea {
+  border: none;
+  border-bottom: 3px solid #fca311;
+}
+
+.page-title {
+  font-family: jetbrains_mono_bold;
+  font-size: 24px;
+  border-bottom: 1px solid #fca311;
+  padding: 10px 0px;
+}
+
+.contact-page-qr {
+  width: 250px;
+}
+
+.success-text, .error-text {
+  font-family: jetbrains_mono_bold;
+  text-align: center;
+  font-size: 22px;
+}
+
+.success-text {
+  color: green;
+}
+
+.error-text {
+  color: red;
+}
