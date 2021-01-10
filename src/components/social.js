@@ -25,9 +25,6 @@ const Social = () => (
         <div className="col-lg-8 col-md-8 col-sm-12">
           { getAllSocialIcons(data) }
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-12">
-          <img src="/images/binary.gif" />
-        </div>
       </div>
     )}
   />

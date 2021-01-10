@@ -3,7 +3,11 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const AsciiPic = () => (
-  <embed src="/files/ascii-image.txt" type="text/plain" className="ascii-image" />
+  <React.Fragment>
+    <div className="asciipic-embed">
+      <embed src="/files/ascii-image.txt" type="text/plain" className="ascii-image" />
+    </div> 
+  </React.Fragment>
 )
 
 export default AsciiPic;
